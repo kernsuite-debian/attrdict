@@ -1,7 +1,8 @@
-.coverage
-*.pyc
-MANIFEST
-build/*
-dist/*
-.tox
-attrdict.egg-info/*
+debian/files
+debian/python-attrdict.debhelper.log
+debian/python-attrdict.postinst.debhelper
+debian/python-attrdict.prerm.debhelper
+debian/python-attrdict.substvars
+debian/python-attrdict/
+attrdict.egg-info/
+build/
