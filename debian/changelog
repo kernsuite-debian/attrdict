@@ -1,3 +1,9 @@
+attrdict (2.0.0-1kern2) xenial; urgency=medium
+
+  * more missing dependencies
+
+ -- Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>  Mon, 13 Feb 2017 10:20:31 +0000
+
 attrdict (2.0.0-1kern1) xenial; urgency=medium
 
   * add missing dependencies
