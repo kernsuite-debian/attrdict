@@ -1,0 +1,4 @@
+*.debhelper.log
+*.substvars
+debhelper-build-stamp
+python3-attrdict/

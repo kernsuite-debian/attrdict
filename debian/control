@@ -2,14 +2,21 @@ Source: attrdict
 Section: python
 Priority: optional
 Maintainer: Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>
-Build-Depends: debhelper (>= 8.0.0), python-all, dh-python, python-setuptools
-Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 8.0.0), python-all, dh-python, python-setuptools,
+ python3-setuptools, python-nose, python3-nose
+Standards-Version: 3.9.7
 Homepage: https://github.com/bcj/AttrDict
 Vcs-Git: git://github.com/kernsuite-debian/attrdict.git
 Vcs-Browser: https://github.com/kernsuite-debian/attrdict.git
 X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.2
 
 Package: python-attrdict
 Architecture: any
 Depends: ${python:Depends}, ${misc:Depends}
-Description: A dictionary that allows attribute-style access
+Description: A dictionary that allows attribute-style access (Python 2)
+
+Package: python3-attrdict
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: A dictionary that allows attribute-style access (Python 3)

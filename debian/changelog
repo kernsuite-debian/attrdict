@@ -1,3 +1,9 @@
+attrdict (2.0.0-1kern3) xenial; urgency=medium
+
+  * modernise
+
+ -- KERN packaging <packaging@kernsuite.info>  Mon, 23 Oct 2017 17:12:16 +0200
+
 attrdict (2.0.0-1kern2) xenial; urgency=medium
 
   * more missing dependencies

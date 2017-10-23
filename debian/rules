@@ -1,11 +1,8 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
 
+export PYBUILD_NAME=attrdict
 export DH_VERBOSE=1
 
 %:
-	dh $@ --with python2
-
-override_dh_auto_clean:
-	dh_auto_clean
-	rm -rf attrdict.egg-info
+	dh $@ --with python2,python3  --buildsystem=pybuild
