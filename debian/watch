@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/AttrDict-$1\.tar\.gz/ \
+  https://github.com/bcj/AttrDict/tags .*/v?(\d\S+)\.tar\.gz

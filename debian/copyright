@@ -4,5 +4,5 @@ Source: https://github.com/bcj/AttrDict
 
 Files: *
 Copyright: 2013 Brendan Curran-Johnson
-Copyright: 2017 Gijs Molenaar <gijs@pythonic.nl>
+           2017 Gijs Molenaar <gijs@pythonic.nl>
 License: MIT

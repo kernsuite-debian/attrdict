@@ -2,8 +2,9 @@ Source: attrdict
 Section: python
 Priority: optional
 Maintainer: Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>
-Build-Depends: debhelper (>= 8.0.0),
+Build-Depends: debhelper (>= 9.0.0),
  python-all,
+ python3-all,
  dh-python,
  python-setuptools,
  python-nose,
@@ -21,9 +22,9 @@ X-Python3-Version: >= 3.2
 Package: python-attrdict
 Architecture: any
 Depends: ${python:Depends}, ${misc:Depends}
-Description: A dictionary that allows attribute-style access (Python 2)
+Description: Dictionary that allows attribute-style access (Python 2)
 
 Package: python3-attrdict
 Architecture: any
 Depends: ${python3:Depends}, ${misc:Depends}
-Description: A dictionary that allows attribute-style access (Python 3)
+Description: Dictionary that allows attribute-style access (Python 3)

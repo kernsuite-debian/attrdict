@@ -1,3 +1,9 @@
+attrdict (2.0.0-1kern5) xenial; urgency=medium
+
+  * modernise debian files
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 31 Oct 2017 17:09:21 +0200
+
 attrdict (2.0.0-1kern4) xenial; urgency=medium
 
   * add missing six module for test suite
