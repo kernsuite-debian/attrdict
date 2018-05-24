@@ -1,3 +1,9 @@
+attrdict (2.0.0-1kern6) bionic; urgency=medium
+
+  * new upstream release
+
+ -- KERN packaging <packaging@kernsuite.info>  Thu, 24 May 2018 11:00:23 +0000
+
 attrdict (2.0.0-1kern5) xenial; urgency=medium
 
   * modernise debian files
