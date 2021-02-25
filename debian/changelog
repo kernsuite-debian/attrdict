@@ -1,3 +1,11 @@
+attrdict (2.0.0-1kern7) focal; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * Drop python2 support
+  * Build for focal
+
+ -- KERN packaging <packaging@kernsuite.info>  Thu, 25 Feb 2021 12:32:49 +0000
+
 attrdict (2.0.0-1kern6) bionic; urgency=medium
 
   * new upstream release
